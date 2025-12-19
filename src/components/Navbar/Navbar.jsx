@@ -19,13 +19,13 @@ export default function Navbar() {
   useEffect(function () {
     
     window.addEventListener('scroll', function () {
-      debounce(onScroll, 800); 
+      debounce(onScroll, 0); 
     });
 
   
     return function () {
       window.removeEventListener('scroll', function () {
-        debounce(onScroll, 800);
+        debounce(onScroll, 0);
       });
     };
   }, []);

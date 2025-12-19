@@ -10,7 +10,7 @@ export default function About() {
     <>
     <section >
         <div className="container mt-4 p-5">
-         <h2>ABOUT COMPONENT</h2>
+         <h2 className='text-white'>ABOUT COMPONENT</h2>
   <div className="starLine d-flex justify-content-center align-items-center my-3">
     <div className='line'></div>
     <FontAwesomeIcon className='star  mx-3' icon={faStar} />

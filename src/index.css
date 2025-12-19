@@ -51,10 +51,17 @@ margin-top: 50px;
   height: 4px;
   background-color: white;
 }
+.starLine .star{
+  font-size: 16px;
+}
 main,section h2{
   font-size: 40px;
   font-weight: 700;
   color: #1C3E50;
+}
+main p{
+font-size: 16px;
+font-weight: 400;
 }
 /* portfolio section styles */
 .portfolio-item{
